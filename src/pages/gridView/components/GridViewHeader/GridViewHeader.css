@@ -1,0 +1,11 @@
+.GVHContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 20px;
+}
+
+.GVHButton:not(:last-child) {
+  margin-right: 10px;
+}

@@ -1,0 +1,62 @@
+.DVPContainer {
+  display: grid;
+  justify-items: center;
+  grid-gap: 20px;
+  padding: 20px 10%;
+}
+
+.DVPButton {
+  justify-self: flex-start;
+}
+
+.DVPLoading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.DVPDetails {
+  display: grid;
+  justify-items: center;
+  grid-gap: 20px;
+}
+
+.DVPDetail {
+  display: grid;
+  align-items: flex-end;
+  grid-column-gap: 10px;
+  grid-template-columns: auto 1fr;
+  width: 100%;
+}
+
+.DVPImage {
+  position: relative;
+}
+
+.DVPImageEdit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.DVPImageClose {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.DVPFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+}
+
+.DVPFooterButton:not(last-child) {
+  margin-right: 20px;
+}
+
+.DVPModal {
+  padding: 20px;
+}
