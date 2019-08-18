@@ -1,3 +1,8 @@
+## To Run
+
+- yarn install
+- yarn start
+
 ## TODO: Missed features
 
 - l10n
